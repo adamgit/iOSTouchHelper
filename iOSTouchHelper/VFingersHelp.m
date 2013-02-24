@@ -42,7 +42,7 @@
 	self.textLabel.text = @"Pan using two fingers";
 	self.textLabel.textAlignment = NSTextAlignmentCenter;
 	self.textLabel.textColor = [UIColor colorWithRed:0 green:0.2 blue:0 alpha:1];
-	self.textLabel.backgroundColor = [UIColor colorWithWhite:1 alpha:0.4];
+	self.textLabel.backgroundColor = [UIColor colorWithWhite:1 alpha:0.5];
 	[self addSubview:self.textLabel];
 	
 	
