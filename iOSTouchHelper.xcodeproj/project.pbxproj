@@ -11,6 +11,7 @@
 		661C916E16D98BD2002417D4 /* VFingersHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 661C916D16D98BD2002417D4 /* VFingersHelp.m */; };
 		661C917316D9919A002417D4 /* 1-finger.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 661C917016D9911C002417D4 /* 1-finger.png */; };
 		661C917416D9919A002417D4 /* 2-fingers.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 661C917116D9911C002417D4 /* 2-fingers.png */; };
+		661C917616D998A0002417D4 /* VFingersHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 661C916C16D98BD2002417D4 /* VFingersHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -98,6 +99,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		661C917516D99899002417D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661C917616D998A0002417D4 /* VFingersHelp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		661C915616D98B8C002417D4 /* iOSTouchHelper */ = {
 			isa = PBXNativeTarget;
@@ -106,6 +118,7 @@
 				661C915316D98B8C002417D4 /* Sources */,
 				661C915416D98B8C002417D4 /* Frameworks */,
 				661C915516D98B8C002417D4 /* CopyFiles */,
+				661C917516D99899002417D4 /* Headers */,
 				661C917216D99142002417D4 /* ShellScript */,
 			);
 			buildRules = (
@@ -221,6 +234,7 @@
 				DSTROOT = /tmp/iOSTouchHelper.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSTouchHelper/iOSTouchHelper-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -233,6 +247,7 @@
 				DSTROOT = /tmp/iOSTouchHelper.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSTouchHelper/iOSTouchHelper-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

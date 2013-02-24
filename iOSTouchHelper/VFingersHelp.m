@@ -83,14 +83,14 @@
 {
 	if( self.superview != nil ) // appearing
 	{
-		[UIView animateWithDuration:1.7 // fade in first image
+		[UIView animateWithDuration:1.45 // fade in first image
 		animations:^
 		{
 			 self.alpha = 1.0;
 		}
 		completion:^(BOOL finished)
 		{
-			[UIView animateWithDuration:1.2 delay:2.0 options:0  // fade OUT first image
+			[UIView animateWithDuration:0.6 delay:1.5 options:0  // fade OUT first image
 			animations:^
  			{
 				  self.alpha = 0.0;
@@ -100,7 +100,7 @@
 				self.fingersView.image = [UIImage imageNamed:@"1-finger.png"];
 				self.textLabel.text = @"Use one finger to select";
 				  
-				[UIView animateWithDuration:1.0 // fade in SECOND image
+				[UIView animateWithDuration:0.8 // fade in SECOND image
 				animations:^
 				{
 					self.alpha = 1.0;
